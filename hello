@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>greetings</title>
+    <style>
+        body {
+            font-family: Times New Roman;
+            text-align: center;
+        }
+        #greeting {
+            font-size: 24px;
+        }
+    </style>
+</head>
+<body>
+    <h1>greetings</h1>
+    <label for="name">Enter your name:
+</label>
+    <input type="text" id="name" placeholder="Your Name">
+    <button onclick="sayHello()">Say Hello</button>
+    <div id="greeting"></div>
+
+    <script>
+        function sayHello() {
+            const nameInput = document.getElementById("name");
+            const greetingDiv = document.getElementById("greeting";
+            const name = nameInput.value;
+            greetingDiv.textContent =
+'Hello, ${name}!';
+        }
+    </script>
+</body>
+</html>
