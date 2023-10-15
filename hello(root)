@@ -24,7 +24,7 @@
         function sayHello() {
             const nameInput = document.getElementById("name");
             const greetingDiv = document.getElementById("greeting");
-            const name = nameInput.value;
+            name = nameInput.value;
             greetingDiv.textContent = 'Hello, ${name}!';
         }
     </script>
