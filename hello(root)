@@ -25,7 +25,7 @@
             const nameInput = document.getElementById("name");
             const greetingDiv = document.getElementById("greeting");
             const name = nameInput.value;
-            greetingDiv.textContent = 'Hello, ${name}!';
+            greetingDiv.textContent = 'Hello ${name}';
         }
     </script>
 </body>
